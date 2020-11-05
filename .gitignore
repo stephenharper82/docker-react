@@ -1,64 +1,23 @@
-# IDEA Ignores #
-################
-*.iml
-*.ipr
-*.iws
-.idea/
-out/
-local.properties
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Generic Android ignores #
-###########################
-bin/
-target
-gen/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# testing
+/coverage
 
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.iso
-*.rar
-*.tar
-*.zip
+# production
+/build
 
-# Logs and databases #
-######################
-log/
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
+# misc
 .DS_Store
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# VCS #
-#######
-.svn
-.svn/
-CVS
-
-# XCode 4 #
-###########
-*.xcuserstate
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-
-node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
